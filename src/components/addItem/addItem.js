@@ -24,7 +24,7 @@ class addItem extends Component {
 
     render(){
         return(
-            <div className="item">
+            <div className="item-color">
                 <form onSubmit={this.handleSubmit}>
                     <input type="text" value={this.state.product} placeholder="Enter Product" id="product" onChange={this.handleChange} required/>
                     <input type="number" value={this.state.price} placeholder="Enter Price" id="price" onChange={this.handleChange} required/>
